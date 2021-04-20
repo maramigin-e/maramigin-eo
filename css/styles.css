@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -5,4 +7,39 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'IBM Plex Sans', 'Georgia', sans-serif;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+.page-header {
+  display: flex;
+  width: 100%;
+}
+
+.main-nav__container {
+  display: flex;
+}
+
+.site-list {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.site-list__item {
+  padding-left: 10px;
+}
+
+.user-navigation {
+  display: flex;
+  justify-content: flex-end;
+  width: 500px;
+}
+
+.user-navigation__item {
+  text-transform: uppercase;
 }
