@@ -9,16 +9,26 @@
         <meta name="keyword" content="Маркетолог, вёрстка, сайты, ташкент, под заказ, HTML5, CSS3, разработка, веб-разработка">
         <meta name="description" content="Вёрстка сайтов с нуля с макета | Проектная работа | Вёрстка сайтов под заказ">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="https://maramigin-eo.ru/images/favicon.ico" type="image/x-icon">
+        <meta name="yandex-verification" content="c0e625377fc77f3d" />
+        <meta name="yandex-verification" content="2261aec5594a1715" />
+
+        <meta property="og:title" content="Сайт Егора Марамыгина о маркетинге, книгах и верстке">
+        <meta propety="og:image" content="https://maramigin-eo.ru/sources/main-photo.png">
+        <meta property="og:type" content="Личный сайт">
+        <meta property="og:url" content="https://maramigin-eo.ru">
+        <meta propety="og:description" content="Личный сайт о моих проектах, моем блоге, где я пишу про маркетинг, и веб">
     </head>
     <body>
-      <h1 class="visually-hidden">Личный сайт Марамыгина Егора — верстальщика и маркетолога</h1>
+      <h1 class="visually-hidden">Егор Марамыгин — Маркетолог-верстальщик</h1>
       <header class="page-header">
-          <p class="page-header__text">Марамыгин Егор</p>
-        <nav class="main-nav">
-          <div class="main-nav__container">
+          <p class="page-header__text">Егор Марамыгин</p>
+        <nav class="main-nav main-nav--closed main-nav--nojs">
+          <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+          <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
               <li class="site-list__item">
-                <a href="#">Проекты</a>
+                <a href="https://maramigin-eo.ru/projects">Проекты</a>
               </li>
               <li class="site-list__item">
                 <a href="https://maramigin-eo.ru/blog">Блог</a>
@@ -28,11 +38,8 @@
               </li>
             </ul>
             <ul class="main-nav__list user-navigation">
-              <li class="user-navigation__item user-navigation__first--item">
-                <a href="https://maramigin-eo.ru">Ru</a>
-              </li>
               <li class="user-navigation__item">
-                <a href="https://maramigin-eo.ru/en">En</a>
+                <a href="https://maramigin-eo.ru">Ru</a> | <a href="https://maramigin-eo.ru/en">En</a>
               </li>
             </ul>
           </div>
@@ -43,20 +50,17 @@
         
         <header class="page-main-header">
           <h2 class="page-main-header__title">О себе</h2>
-          <div class="page-main__wrapper">
-            <img class="page-main__logo" src="sources/main-photo.png" alt="Мое фото">
-            <p class="page-main__text"></p>
+          <div class="container page-main__wrapper">
+            <img class="page-main__logo" src="sources/main-photo.png" width="500" alt="Мое фото">
+            <p class="page-main__text">Егор Марамыгин — вкатываюсь во frontend. Работаю B2B менеджером по продажам в <a href="https://ptolemay.com">ptolemay.com</a> Могу сверстать сайт по макету. Доступно, адаптивно, семантично. С моим портфолио можно ознакомится во вкладке <a href="https://maramigin-eo.ru/projects">проекты</a>. О предыдущем опыте работе можно почита мои <a href="https://maramigin-eo.ru/blog/tags/case">кейсы</a>.</a></p>
           </div>          
         </header>
 
       </main>
 
-      <footer class="page-footer">
-
-        <section class="page-footer__title">
-          <p class="page-footer__text">Контакты</p>
-        </section>
-        <div class="page-footer__navigation">
+      <footer id="contacts" class="page-footer">
+          <h2 class="page-footer__title">Контакты</h2>
+        <div class="container page-footer__navigation">
           <ul class="page-footer-list">
             <li class="page-footer-item">
               <a href="#">Telegram</a>
@@ -74,5 +78,6 @@
         </div>
 
       </footer>
+      <script src="js/toggle.js"></script>
     </body>
 </html>
